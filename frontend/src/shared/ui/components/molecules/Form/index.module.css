@@ -44,3 +44,16 @@
   font-size: 10px;
   color: var(--primary);
 }
+
+.success {
+  color: var(--secondry);
+}
+
+.message {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.message a {
+  color: var(--secondry);
+}
