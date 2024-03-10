@@ -22,7 +22,7 @@ const Form = ({ auth }: { auth: "sign up" | "sign in" }) => {
 
   useEffect(() => {
     if (localStorage.getItem("token")) localStorage.removeItem("token");
-    if (state.token) {
+    if (state?.token) {
       localStorage.setItem("token", state.token);
       dispatch(setToken(state.token));
       router.push("/");
