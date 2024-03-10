@@ -1,7 +1,7 @@
 import Form from "@/shared/ui/components/molecules/Form";
 import styles from "./page.module.css";
 
-export function Login() {
+function Login() {
   return (
     <main>
       <section>
