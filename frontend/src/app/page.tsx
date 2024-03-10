@@ -1,7 +1,10 @@
-import { headers } from "next/headers";
-import styles from "./page.module.css";
-import { redirect } from "next/navigation";
+import Header from "@/shared/ui/components/molecules/header";
 
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <Header />
+      <main></main>
+    </>
+  );
 }
