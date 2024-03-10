@@ -6,13 +6,17 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
 section {
   background-color: var(--grey);
 }
 
 .content {
-  width: 100%;
-  padding: 0 148px;
+  margin: 0 148px;
 }
 
 button,
@@ -34,4 +38,10 @@ a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin: 0 12px;
+  }
 }
