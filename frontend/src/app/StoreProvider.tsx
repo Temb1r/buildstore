@@ -1,7 +1,8 @@
 "use client";
+import { useAppSelector } from "@/shared/lib/hooks";
 import { AppStore, makeStore } from "@/shared/lib/store";
 import { usePathname, useRouter } from "next/navigation";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Provider } from "react-redux";
 
 export default function StoreProvider({
@@ -14,10 +15,13 @@ export default function StoreProvider({
   const storeRef = useRef<AppStore>();
   if (!storeRef.current) {
     storeRef.current = makeStore();
-    // const token = localStorage.getItem("token");
-
-    // if (!token && pathName === "/") router.push("login");
   }
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+
+    if (pathName === "/" && !token) router.push("/login");
+  }, [pathName]);
 
   return <Provider store={storeRef.current}>{children}</Provider>;
 }
