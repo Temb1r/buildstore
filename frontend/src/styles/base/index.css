@@ -21,3 +21,17 @@ a {
   border: none;
   padding: 0;
 }
+
+.button {
+  border-radius: 2px;
+  width: 208px;
+  height: 47px;
+  background-color: var(--primary);
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
