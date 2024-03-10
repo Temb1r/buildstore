@@ -1,7 +1,7 @@
 import Form from "@/shared/ui/components/molecules/Form";
 import styles from "./page.module.css";
 
-export function Login() {
+function Register() {
   return (
     <main>
       <section>
@@ -13,4 +13,4 @@ export function Login() {
   );
 }
 
-export default Login;
+export default Register;
