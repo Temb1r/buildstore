@@ -1,0 +1,9 @@
+${7*7}
+${999999+1}
+${java:version}
+${java:os}
+${java:runtime}
+${application:name}
+${application:formatted}
+${systemProperties['user.name']}
+${systemProperties['user.dir']}

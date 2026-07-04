@@ -1,0 +1,4 @@
+<p data-th-text="${7*7}">test</p>
+<p th:text="${java:version}">test</p>
+<div th:each="x : ${#strings.listContainingAll({'a'})}">test</div>
+<p data-th-text="${@environment.getProperty('user.name')}">test</p>

